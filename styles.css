@@ -243,6 +243,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; }
 .nancy-close h2 { margin: 0 0 19px; font-size: clamp(50px, 5.1vw, 74px); letter-spacing: -.06em; line-height: 1.06; }
 .nancy-close h2 i { color: var(--gold); font-weight: 400; }
 .nancy-close p:not(.eyebrow) { margin-bottom: 26px; color: #c3d6cd; font-size: 14px; line-height: 1.7; }
+.night-status { display: block; width: max-content; margin: 0 auto 27px; padding: 9px 14px; border: 1px solid #a9aa83; color: var(--gold); font-size: 10px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
 
 .site-footer { padding-block: 32px; background: #f9fbf7; border-top: 1px solid var(--line); }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
