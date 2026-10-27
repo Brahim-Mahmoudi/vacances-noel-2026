@@ -115,6 +115,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; }
 .open-plans span { display: block; margin-bottom: 12px; color: var(--berry); font-size: 10px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
 .open-plans strong { display: block; color: var(--pine); font-family: var(--display); font-size: 27px; font-weight: 500; letter-spacing: -.035em; }
 .open-plans p { margin: 7px 0 0; color: #526960; font-size: 13px; line-height: 1.55; }
+.step-confirmed .step-number { border-color: var(--pine); color: white; background: var(--pine); }
+.step-confirmed .step-label { color: var(--pine); }
 
 .site-footer { padding-block: 30px; border-top: 1px solid var(--line); background: #f9fbf7; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
