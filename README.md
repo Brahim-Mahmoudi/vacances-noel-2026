@@ -6,7 +6,9 @@ Un portfolio de voyage statique racontant le trajet Montréal → Paris → Nanc
 
 - `index.html` : couverture et résumé du trajet.
 - `voyage.html` : premier chapitre, avec le vol, une pause à Paris et le train de 16 h vers Nancy.
-- `nancy.html` : séjour à Nancy du mardi 15 au jeudi 17 décembre, entre découverte de la ville, famille et éventuelle visite aux amis.
+- `nancy.html` : séjour à Nancy du mardi 15 au jeudi 17 décembre, avec randonnée prévue au lac des Corbeaux le 17, découverte de la ville, famille et éventuelle visite aux amis.
+
+La photo du lac vu depuis la Roche du Lac est de [Cham](https://commons.wikimedia.org/wiki/File:Lac_des_Corbeaux_2.jpg), sous licence [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Elle a été prise en été et est conservée sans modification dans `assets/lac-des-corbeaux-roche-du-lac.jpg`. L’[office de tourisme de La Bresse](https://www.labresse.net/fiches/776000667-lac-des-corbeaux/) indique que la route du lac ferme en hiver et que le sentier vers le belvédère n’est pas praticable à cette saison ; l’accès doit être revérifié avant le voyage.
 
 Les textes et les illustrations sont conçus pour être complétés au fil du voyage. Le Café A est une suggestion de halte, sans réservation associée. La gare Paris-Est est celle indiquée pour le trajet Paris–Nancy par [SNCF Connect](https://www.sncf-connect.com/train/trajet/paris/nancy). Les informations sur le [Café A](https://www.cafea.fr/) doivent être revérifiées avant le départ.
 

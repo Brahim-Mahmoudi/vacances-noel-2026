@@ -203,6 +203,22 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; }
 .day strong { font-family: var(--display); font-size: 62px; font-weight: 400; letter-spacing: -.06em; line-height: 1; }
 .day span { color: #bfd0c7; font-size: 10px; font-weight: 800; letter-spacing: .12em; }
 .days-year { justify-self: end; }
+.lake-feature { overflow: hidden; padding-block: 103px 112px; background: #e7efe8; }
+.lake-grid { display: grid; grid-template-columns: minmax(0, .86fr) minmax(450px, 1.14fr); align-items: center; gap: clamp(55px, 8vw, 105px); }
+.lake-copy h2 { margin: 0 0 23px; color: var(--pine); font-size: clamp(52px, 5vw, 72px); letter-spacing: -.06em; line-height: 1.05; }
+.lake-copy h2 i { color: var(--berry); font-weight: 400; }
+.lake-copy > p:not(.eyebrow) { max-width: 460px; color: #586f64; font-size: 15px; line-height: 1.75; }
+.lake-note { max-width: 465px; margin-top: 27px; padding: 18px 19px 17px; border-left: 3px solid var(--berry); background: #f8faf6; }
+.lake-note strong { display: block; margin-bottom: 7px; color: var(--pine); font-size: 12px; }
+.lake-note p { margin-bottom: 11px; color: #697d70; font-size: 12px; line-height: 1.6; }
+.lake-note a { display: inline-flex; gap: 7px; color: var(--berry); font-size: 11px; font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+.lake-note a:hover { color: var(--pine); }
+.lake-figure { width: 100%; margin: 0; padding: 14px 14px 17px; background: #fffdf5; box-shadow: 0 19px 52px #173b3626; transform: rotate(2deg); }
+.lake-figure img { display: block; width: 100%; height: auto; }
+.lake-figure figcaption { display: flex; justify-content: space-between; gap: 13px; padding: 14px 3px 0; color: #687d70; font-size: 10px; line-height: 1.45; }
+.lake-figure figcaption span:last-child { flex: none; }
+.lake-figure figcaption a { color: var(--berry); text-decoration: underline; text-underline-offset: 2px; }
+.lake-figure figcaption a:hover { color: var(--pine); }
 .nancy-stay { padding-block: 110px 119px; background: #fff; }
 .nancy-heading { max-width: 770px; margin-bottom: 42px; }
 .nancy-heading h2 { margin: 0 0 19px; color: var(--pine); font-size: clamp(47px, 4.8vw, 70px); letter-spacing: -.06em; line-height: 1.06; }
@@ -251,6 +267,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; }
   .days-inner { gap: 10px; }
   .days-caption strong { font-size: 22px; }
   .day strong { font-size: 53px; }
+  .lake-grid { grid-template-columns: minmax(0, .86fr) minmax(350px, 1.14fr); gap: 45px; }
+  .lake-copy h2 { font-size: 59px; }
 }
 
 @media (max-width: 760px) {
@@ -297,6 +315,10 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; }
   .day { padding-inline: 0; }
   .day:nth-child(2) { border-left: 0; }
   .days-year { grid-column: 1 / -1; justify-self: start; margin-top: 19px; }
+  .lake-feature { padding-block: 78px 89px; }
+  .lake-grid { grid-template-columns: 1fr; gap: 37px; }
+  .lake-copy h2 { font-size: 59px; }
+  .lake-figure { width: min(100% - 12px, 560px); margin-inline: auto; }
   .nancy-stay { padding-block: 78px 87px; }
   .nancy-moments { grid-template-columns: 1fr; }
   .moment-card { min-height: 0; }
@@ -332,6 +354,9 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; }
   .nancy-postcard { padding: 11px; }
   .nancy-postcard-top, .nancy-postcard-bottom { font-size: 7px; }
   .day strong { font-size: 47px; }
+  .lake-copy h2 { font-size: 49px; }
+  .lake-figure { padding: 9px 9px 13px; }
+  .lake-figure figcaption { flex-direction: column; gap: 5px; font-size: 9px; }
   .nancy-heading h2 { font-size: 45px; }
   .moment-card { padding: 28px 27px; }
   .moment-card h3 { font-size: 37px; }
