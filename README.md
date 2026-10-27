@@ -6,6 +6,7 @@ Un portfolio de voyage statique racontant le trajet Montréal → Paris → Nanc
 
 - `index.html` : couverture et résumé du trajet.
 - `voyage.html` : premier chapitre, avec le vol, une pause à Paris et le train de 16 h vers Nancy.
+- `nancy.html` : séjour à Nancy du mardi 15 au jeudi 17 décembre, entre découverte de la ville, famille et éventuelle visite aux amis.
 
 Les textes et les illustrations sont conçus pour être complétés au fil du voyage. Le Café A est une suggestion de halte, sans réservation associée. La gare Paris-Est est celle indiquée pour le trajet Paris–Nancy par [SNCF Connect](https://www.sncf-connect.com/train/trajet/paris/nancy). Les informations sur le [Café A](https://www.cafea.fr/) doivent être revérifiées avant le départ.
 
