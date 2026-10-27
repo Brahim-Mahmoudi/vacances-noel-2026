@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173b36" />
+    <meta name="description" content="Un carnet de voyage personnel pour imaginer et préparer les prochaines vacances de Noël." />
+    <title>Carnet de Noël — Imaginer le prochain départ</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#accueil" aria-label="Carnet de Noël, accueil">
+          <span class="brand-mark" aria-hidden="true">✳</span>
+          <span>Carnet <em>de Noël</em></span>
+        </a>
+        <nav aria-label="Navigation principale">
+          <a href="#inspirations">Inspirations</a>
+          <a href="#mon-voyage">Mon voyage</a>
+          <a href="#preparatifs">Préparatifs</a>
+        </nav>
+        <a class="header-link" href="#mon-voyage">Créer mon projet <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero" id="accueil" aria-labelledby="hero-title">
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Le carnet des prochaines vacances</p>
+            <h1 id="hero-title">Et si Noël<br />commençait <i>ailleurs&nbsp;?</i></h1>
+            <p class="hero-intro">Une page pour rêver au prochain départ, rassembler les bonnes idées et préparer un voyage qui nous ressemble.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#mon-voyage">Préparer mon voyage <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="#inspirations">Explorer les idées <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="hero-footnote">Destination inconnue. Envie de partir bien réelle.</p>
+          </div>
+
+          <div class="postcard-wrap" aria-label="Illustration d'un paysage enneigé dans une carte postale">
+            <div class="postcard">
+              <div class="postcard-topline"><span>CARTE POSTALE Nº 01</span><span>HIVER À VENIR</span></div>
+              <svg class="winter-scene" viewBox="0 0 600 430" role="img" aria-label="Montagnes enneigées, sapins et soleil d'hiver" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b6d1c9"/><stop offset="1" stop-color="#e4ece5"/></linearGradient>
+                  <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#698d86"/><stop offset="1" stop-color="#365d57"/></linearGradient>
+                </defs>
+                <rect width="600" height="430" fill="url(#sky)"/>
+                <circle cx="456" cy="101" r="53" fill="#f4d29b"/>
+                <path d="M0 273 164 68l164 205Z" fill="#8faf9f"/>
+                <path d="m164 68 35 44-32-8-18 34-22-14Z" fill="#f6f8ee"/>
+                <path d="M164 273 347 94l203 179Z" fill="url(#mountain)"/>
+                <path d="m347 94 49 48-36-7-18 24-25-24-24 17Z" fill="#f7f8ef"/>
+                <path d="M391 274 534 147l104 127Z" fill="#7b9b8e"/>
+                <path d="m534 147 34 41-28-12-17 21-17-13Z" fill="#f4f7ef"/>
+                <path d="M0 278c121-27 238-23 344 6 109 29 191 17 256-3v149H0Z" fill="#e8eee8"/>
+                <path d="M0 330c88-30 179-19 279 5 116 27 205-10 321-31v126H0Z" fill="#f8f8ef"/>
+                <g fill="#234b42">
+                  <path d="m57 299 27-81 27 81h-16l19 34H54l19-34Z"/>
+                  <path d="m116 314 18-57 18 57h-10l14 24h-45l14-24Z"/>
+                  <path d="m496 304 23-72 23 72h-13l16 28h-53l17-28Z"/>
+                  <path d="m548 321 16-54 17 54h-9l12 21h-42l14-21Z"/>
+                </g>
+                <g stroke="#e3eee5" stroke-width="3" stroke-linecap="round"><path d="M84 224v104M134 261v78M519 239v93M564 275v64"/></g>
+                <path d="M0 372c92 5 161-19 248-17 97 3 149 32 237 21 44-5 79-18 115-25" fill="none" stroke="#dce5df" stroke-width="5"/>
+              </svg>
+              <div class="postcard-bottomline"><span>QUELQUE PART, BIENTÔT</span><span aria-hidden="true">✳</span></div>
+            </div>
+            <div class="postcard-stamp" aria-hidden="true"><span>NOËL</span><strong>25</strong><span>DÉC.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="inspirations section-pad" id="inspirations" aria-labelledby="inspirations-title">
+        <div class="shell">
+          <div class="section-heading">
+            <div><p class="eyebrow">Pour commencer à rêver</p><h2 id="inspirations-title">Trois façons de s'évader</h2></div>
+            <p>Pas besoin d'avoir déjà choisi. Une ambiance suffit parfois pour lancer l'idée.</p>
+          </div>
+          <div class="idea-grid">
+            <article class="idea-card idea-mountain">
+              <div class="idea-art" aria-hidden="true"><span class="art-sun"></span><span class="art-mountain one"></span><span class="art-mountain two"></span><span class="art-ground"></span></div>
+              <div class="idea-content"><span class="idea-kicker">Pour ralentir</span><h3>Un Noël à la montagne</h3><p>Un chalet, des paysages blancs et le plaisir de ne rien presser.</p><button type="button" class="idea-button" data-idea="Un Noël à la montagne">Garder cette idée <span aria-hidden="true">↗</span></button></div>
+            </article>
+            <article class="idea-card idea-city">
+              <div class="idea-art" aria-hidden="true"><span class="city-skyline"></span><span class="city-window w1"></span><span class="city-window w2"></span><span class="city-window w3"></span><span class="city-window w4"></span><span class="city-moon"></span></div>
+              <div class="idea-content"><span class="idea-kicker">Pour s'émerveiller</span><h3>Une ville illuminée</h3><p>Des rues animées, un marché de Noël et des découvertes à chaque coin.</p><button type="button" class="idea-button" data-idea="Une ville illuminée">Garder cette idée <span aria-hidden="true">↗</span></button></div>
+            </article>
+            <article class="idea-card idea-sun">
+              <div class="idea-art" aria-hidden="true"><span class="sun-disc"></span><span class="sun-horizon"></span><span class="sun-wave wave-one"></span><span class="sun-wave wave-two"></span></div>
+              <div class="idea-content"><span class="idea-kicker">Pour changer d'air</span><h3>Noël sous le soleil</h3><p>Une lumière différente, des journées douces et des traditions à réinventer.</p><button type="button" class="idea-button" data-idea="Noël sous le soleil">Garder cette idée <span aria-hidden="true">↗</span></button></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="planner section-pad" id="mon-voyage" aria-labelledby="planner-title">
+        <div class="shell planner-grid">
+          <div class="planner-intro"><p class="eyebrow light">Mon prochain départ</p><h2 id="planner-title">L'idée devient<br /><i>un projet.</i></h2><p>Note les premiers détails ici. Tu pourras les modifier au fil de tes envies.</p><div class="save-note"><span class="save-dot" aria-hidden="true"></span><span id="save-status" role="status">Tes notes sont enregistrées sur cet appareil.</span></div></div>
+          <div class="planner-card">
+            <form id="trip-form" autocomplete="off">
+              <div class="form-heading"><span>FICHE DE VOYAGE</span><span aria-hidden="true">✳</span></div>
+              <div class="field"><label for="destination">Destination ou idée de séjour</label><input id="destination" name="destination" type="text" placeholder="Ex. : quelques jours à Québec" maxlength="80" /></div>
+              <div class="field-row"><div class="field"><label for="departure">Départ</label><input id="departure" name="departure" type="date" /></div><div class="field"><label for="return-date">Retour</label><input id="return-date" name="returnDate" type="date" /></div></div>
+              <div class="field"><label for="budget">Budget envisagé</label><div class="money-field"><input id="budget" name="budget" type="number" min="0" step="1" inputmode="numeric" placeholder="Ex. : 1500" /><span>$ CA</span></div></div>
+              <div class="field"><label for="wish">Ce que j'ai envie de vivre</label><textarea id="wish" name="wish" rows="3" maxlength="500" placeholder="Une balade, un repas, un moment à partager…"></textarea></div>
+              <p class="form-footnote">Enregistrement automatique dans ce navigateur.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="preparations section-pad" id="preparatifs" aria-labelledby="preparatifs-title">
+        <div class="shell preparations-grid">
+          <div class="preparations-copy"><p class="eyebrow">Avant de partir</p><h2 id="preparatifs-title">Les petits pas<br />font les grands voyages.</h2><p>Une liste légère pour garder le cap, du premier rêve jusqu'aux valises.</p><div class="progress-wrap"><div class="progress-top"><span>Mes préparatifs</span><strong id="progress-label">0 / 5</strong></div><div class="progress-track" role="progressbar" aria-label="Progression des préparatifs" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" id="progress-bar"><span id="progress-fill"></span></div></div></div>
+          <div class="checklist-card"><div class="checklist-top"><span>À FAIRE AVANT LE DÉPART</span><span aria-hidden="true">✳</span></div><ul id="checklist" class="checklist" aria-label="Liste des préparatifs"></ul><form id="add-task-form" class="add-task-form"><label class="visually-hidden" for="new-task">Nouvelle étape</label><input id="new-task" type="text" maxlength="100" placeholder="Ajouter une étape personnelle" required /><button type="submit" aria-label="Ajouter l'étape">+</button></form></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="shell footer-inner"><a class="brand" href="#accueil"><span class="brand-mark" aria-hidden="true">✳</span><span>Carnet <em>de Noël</em></span></a><p>Les plus beaux voyages commencent par une idée.</p><a href="#accueil">Retour en haut ↑</a></div></footer>
+  </body>
+</html>
