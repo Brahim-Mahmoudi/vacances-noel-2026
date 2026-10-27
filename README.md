@@ -1,6 +1,6 @@
 # Carnet de Noël 2026
 
-Un carnet de voyage statique, raconté à la première personne, sur une seule page HTML. Les sept étapes suivent l’ordre du voyage :
+Un carnet de voyage statique, raconté à la première personne, sur une seule page HTML. Les huit étapes suivent l’ordre du voyage :
 
 1. Montréal → Paris, arrivée le 14 décembre au matin ;
 2. pause à Paris, puis train de 16 h vers Nancy ;
@@ -8,7 +8,8 @@ Un carnet de voyage statique, raconté à la première personne, sur une seule p
 4. randonnée prévue dans les Vosges le 17 ;
 5. nuit possible chez Karim, près d’Épinal ;
 6. journée à Metz le 18, compétition d’athlétisme de Jade et nuit sur place ;
-7. séjour en Alsace du 19 au 21, avec les marchés de Noël et les paysages les 19 et 20 décembre.
+7. séjour en Alsace du 19 au 21, avec les marchés de Noël et les paysages les 19 et 20 décembre ;
+8. suite à déterminer à partir du 21 décembre : Jade partira probablement voir sa famille au Pays basque ; le narrateur n’a pas encore décidé de ses projets jusqu’au 31 décembre, voire au 1er janvier 2027.
 
 La page à ouvrir et à publier est `index.html`. Les anciens fichiers `voyage.html`, `nancy.html` et `metz.html` redirigent vers l’étape correspondante pour préserver les anciens liens.
 
