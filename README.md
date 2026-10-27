@@ -1,8 +1,15 @@
-# Carnet de Noël
+# Carnet de Noël 2026
 
-Une page personnelle pour imaginer et préparer les prochaines vacances de Noël. Le site est en HTML, CSS et JavaScript, sans dépendances ni compilation.
+Un portfolio de voyage statique racontant le trajet Montréal → Paris → Nancy, avec une arrivée à Paris le 14 décembre 2026 au matin et un train à 16 h. Le projet utilise uniquement HTML et CSS. Aucun outil de compilation ni compte n'est nécessaire pour le consulter.
 
-## Ouvrir la page
+## Pages
+
+- `index.html` : couverture et résumé du trajet.
+- `voyage.html` : premier chapitre, avec le vol, une pause à Paris et le train de 16 h vers Nancy.
+
+Les textes et les illustrations sont conçus pour être complétés au fil du voyage. Le Café A est une suggestion de halte, sans réservation associée. La gare Paris-Est est celle indiquée pour le trajet Paris–Nancy par [SNCF Connect](https://www.sncf-connect.com/train/trajet/paris/nancy). Les informations sur le [Café A](https://www.cafea.fr/) doivent être revérifiées avant le départ.
+
+## Voir le site en local
 
 Ouvrir `index.html` dans un navigateur. Pour un aperçu avec serveur local :
 
@@ -18,10 +25,4 @@ Puis visiter `http://localhost:8000`.
 2. Dans **Settings → Pages**, choisir **Deploy from a branch**.
 3. Sélectionner la branche principale et le dossier **/(root)**, puis enregistrer.
 
-La page utilise uniquement des chemins relatifs et fonctionne aussi dans un dépôt de projet (`nom-utilisateur.github.io/nom-du-depot/`). Les notes et la liste sont enregistrées dans le navigateur de chaque visiteur via `localStorage` : elles ne sont pas synchronisées entre appareils et ne sont pas visibles par les autres visiteurs.
-
-## Personnaliser
-
-- Textes, sections et idées de voyage : `index.html`
-- Couleurs et mise en page : `styles.css`
-- Liste initiale et comportement de sauvegarde : `app.js`
+Tous les liens entre fichiers sont relatifs, ce qui permet une publication dans un dépôt de projet (`nom-utilisateur.github.io/nom-du-depot/`). Voir aussi la [documentation officielle GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
