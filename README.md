@@ -1,5 +1,9 @@
 # Carnet de Noël 2026
 
+**Site en ligne :** [brahim-mahmoudi.github.io/vacances-noel-2026](https://brahim-mahmoudi.github.io/vacances-noel-2026/) (redirige vers [www.brahimmahmoudi.com/vacances-noel-2026](https://www.brahimmahmoudi.com/vacances-noel-2026/)).
+
+**Dépôt GitHub :** [Brahim-Mahmoudi/vacances-noel-2026](https://github.com/Brahim-Mahmoudi/vacances-noel-2026).
+
 Un carnet de voyage statique, raconté à la première personne, sur une seule page HTML. Les onze étapes suivent l’ordre du voyage :
 
 1. Montréal → Paris, arrivée le 14 décembre au matin ;
@@ -30,10 +34,6 @@ python3 -m http.server 8000
 
 Puis visiter `http://localhost:8000`.
 
-## Publier sur GitHub Pages
+## Publication
 
-1. Créer un dépôt GitHub et y envoyer les fichiers de ce dossier à la racine.
-2. Dans **Settings → Pages**, choisir **Deploy from a branch**.
-3. Sélectionner la branche principale et le dossier **/(root)**, puis enregistrer.
-
-Tous les liens et assets utilisent des chemins relatifs, ce qui permet une publication dans un dépôt de projet (`nom-utilisateur.github.io/nom-du-depot/`).
+GitHub Pages publie la branche `main`, dossier `/(root)`. Les prochains changements du site seront mis en ligne après un `git push origin main`. Tous les liens et assets utilisent des chemins relatifs.
