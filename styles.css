@@ -57,9 +57,9 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; }
 .postcard-art::after { bottom: -111px; background: #8eafa5; transform: rotate(8deg); }
 .route-arc { position: absolute; top: 53%; right: 8%; left: 8%; z-index: 1; border-top: 2px dashed #315f56; transform: rotate(-9deg); }
 .route-pin { position: absolute; z-index: 2; display: grid; place-items: center; width: 34px; height: 34px; border: 3px solid #fffdf5; border-radius: 50%; color: var(--paper); background: var(--berry); font-size: 15px; box-shadow: 0 2px 8px #173b3626; }
-.pin-one { top: 60%; left: 8%; }.pin-two { top: 51%; left: 34%; }.pin-three { top: 44%; left: 61%; }.pin-four { top: 36%; left: 82%; }
+.pin-one { top: 60%; left: 6%; }.pin-two { top: 55%; left: 26%; }.pin-three { top: 49%; left: 47%; }.pin-four { top: 43%; left: 67%; }.pin-five { top: 37%; left: 85%; }
 .route-place { position: absolute; z-index: 2; color: var(--pine); font-family: var(--display); font-size: 19px; font-weight: 700; text-shadow: 0 1px 3px #dbe9df; }
-.place-one { top: 77%; left: 5%; }.place-two { top: 64%; left: 31%; }.place-three { top: 55%; left: 59%; }.place-four { top: 47%; right: 4%; }
+.place-one { top: 77%; left: 3%; }.place-two { top: 70%; left: 24%; }.place-three { top: 63%; left: 45%; }.place-four { top: 56%; left: 66%; }.place-five { top: 50%; right: 2%; }
 
 .itinerary { padding-block: 93px 105px; background: #fff; scroll-margin-top: 26px; }
 .section-heading { max-width: 700px; margin-bottom: 72px; }
