@@ -1,17 +1,19 @@
 # Carnet de Noël 2026
 
-Un portfolio de voyage statique racontant le trajet Montréal → Paris → Nancy, avec une arrivée à Paris le 14 décembre 2026 au matin et un train à 16 h. Le projet utilise uniquement HTML et CSS. Aucun outil de compilation ni compte n'est nécessaire pour le consulter.
+Un carnet de voyage statique, raconté à la première personne, sur une seule page HTML. Les six étapes suivent l’ordre du voyage :
 
-## Pages
+1. Montréal → Paris, arrivée le 14 décembre au matin ;
+2. pause à Paris, puis train de 16 h vers Nancy ;
+3. quelques jours à Nancy du 15 au 17 décembre ;
+4. randonnée prévue dans les Vosges le 17 ;
+5. nuit possible chez Karim, près d’Épinal ;
+6. journée à Metz le 18, compétition d’athlétisme de Jade et nuit sur place.
 
-- `index.html` : couverture et résumé du trajet.
-- `voyage.html` : premier chapitre, avec le vol, une pause à Paris et le train de 16 h vers Nancy.
-- `nancy.html` : séjour à Nancy du mardi 15 au jeudi 17 décembre, randonnée prévue au lac des Corbeaux le 17, puis nuit possible chez Karim près d’Épinal. La famille et une éventuelle visite aux amis restent aussi dans le carnet.
-- `metz.html` : arrivée à Metz le vendredi 18 décembre au matin, journée en ville, compétition d’athlétisme de Jade et nuit à Metz.
+La page à ouvrir et à publier est `index.html`. Les anciens fichiers `voyage.html`, `nancy.html` et `metz.html` redirigent vers l’étape correspondante pour préserver les anciens liens.
 
-La photo du lac vu depuis la Roche du Lac est de [Cham](https://commons.wikimedia.org/wiki/File:Lac_des_Corbeaux_2.jpg), sous licence [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Elle a été prise en été et est conservée sans modification dans `assets/lac-des-corbeaux-roche-du-lac.jpg`. L’[office de tourisme de La Bresse](https://www.labresse.net/fiches/776000667-lac-des-corbeaux/) indique que la route du lac ferme en hiver et que le sentier vers le belvédère n’est pas praticable à cette saison ; l’accès doit être revérifié avant le voyage.
+La photo du lac des Corbeaux vue depuis la Roche du Lac est de [Cham](https://commons.wikimedia.org/wiki/File:Lac_des_Corbeaux_2.jpg), sous licence [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Elle a été prise en été et est conservée sans modification dans `assets/lac-des-corbeaux-roche-du-lac.jpg`. L’[office de tourisme de La Bresse](https://www.labresse.net/fiches/776000667-lac-des-corbeaux/) indique que la route du lac ferme en hiver et que le sentier vers le belvédère n’est pas praticable à cette saison ; l’accès doit être revérifié avant le voyage.
 
-Les textes et les illustrations sont conçus pour être complétés au fil du voyage. Le Café A est une suggestion de halte, sans réservation associée. La gare Paris-Est est celle indiquée pour le trajet Paris–Nancy par [SNCF Connect](https://www.sncf-connect.com/train/trajet/paris/nancy). Les informations sur le [Café A](https://www.cafea.fr/) doivent être revérifiées avant le départ.
+Le Café A est une idée de halte, sans réservation. Les horaires, lieux précis et hébergements restent à confirmer.
 
 ## Voir le site en local
 
@@ -29,4 +31,4 @@ Puis visiter `http://localhost:8000`.
 2. Dans **Settings → Pages**, choisir **Deploy from a branch**.
 3. Sélectionner la branche principale et le dossier **/(root)**, puis enregistrer.
 
-Tous les liens entre fichiers sont relatifs, ce qui permet une publication dans un dépôt de projet (`nom-utilisateur.github.io/nom-du-depot/`). Voir aussi la [documentation officielle GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+Tous les liens et assets utilisent des chemins relatifs, ce qui permet une publication dans un dépôt de projet (`nom-utilisateur.github.io/nom-du-depot/`).
